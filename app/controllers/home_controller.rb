@@ -25,6 +25,7 @@ def prices
 
 
 	@symbol = params[:sym]
+	
 if @symbol
 	@symbol = @symbol.upcase
 
